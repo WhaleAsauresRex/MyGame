@@ -23,6 +23,14 @@ function SetList() {
     window.alert("Don't Play Games");
   }
   else {
-    window.alert("Don't Play Games");
+    window.alert("This Is The Max!");
   }
+}
+
+function removeOne() {
+  var hey = document.getElementById('UserInput').value;
+  var stupidKid = document.getElementsByTagName('li')[hey-1];
+  var hana = stupidKid.parentNode;
+  hana.removeChild(stupidKid);
+  ListAlert-=1;
 }
