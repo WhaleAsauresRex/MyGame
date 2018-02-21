@@ -33,4 +33,10 @@ function removeOne() {
   var hana = stupidKid.parentNode;
   hana.removeChild(stupidKid);
   ListAlert-=1;
+  if (ListAlert > 0) {
+    window.alert("EASY MONEY");
+  }
+  else {
+    window.alert("DONE GO PLAY A GAME!");
+  }
 }
